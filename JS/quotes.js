@@ -1,3 +1,5 @@
+// Math : js객체. 숫자 관련
+
 const quotes = [
 
 {   

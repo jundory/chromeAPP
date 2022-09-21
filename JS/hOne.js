@@ -1,4 +1,9 @@
-//계속 사용될 변수 선언
+//event : 첫번째 argument에는 함수에 대한 정보가 담겨있음(생략가능)
+//preventDefault : 브라우저 제어기능. js내장함수
+//localStorage.(getItem/setItem/remove) : 브라우저 자체 API
+//내가 쓰던 기존 방식 :style.display를 통해 컨트롤.
+//새롭게 배운 방식 : classList.(add/remove)를 통해 컨트롤.
+
 const loginForm = document.querySelector("#login-form");
 const loginInfut = document.querySelector("#login-form input");
 const h1 = document.querySelector("h1");
