@@ -8,24 +8,34 @@
     <title>Momentum</title>
 </head>
 <body>
+    <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">
         <input
         required
         maxlength="15"
         type="text"
         placeholder="what is your name?"
-         />
+        />
         <input type="submit" value="Log In"/>
     </form>
-    <h2 id="clock">00:00:00</h2>
     <h1 class="hidden"></h1>
+    <form id="todo-form">
+        <input
+        required
+        type="text"
+        placeholder="Write a To Do and Press Enter"
+        />
+         <!-- required는 해당 infut을 필수로 만듦 -->
+    </form>
+    <ul id="todo-list"></ul>
     <div id="quote">
         <span></span>
         <span></span>
     </div>
-        <script src="JS/hOne.js"></script>
+        <script src="JS/login.js"></script>
         <script src="JS/clock.js"></script>
         <script src="JS/quotes.js"></script>
         <script src="JS/background.js"></script>
+        <script src="JS/todo.js"></script>
 </body>
 </html>
